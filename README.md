@@ -1,24 +1,34 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+## iHewa weather app
 
-## How to use this template
+The project is built on ionic the angular framework for mobile development. The app fetches weather data from [Wunderground API](http://api.wunderground.com/api/). You first need to create an account which is free, get the api key then use that in the application to get the weather information.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
 
-### With the Ionic CLI:
+### How to get the project:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Clone the repo:
 
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
+$ git clone https://github.com/meshnesh/Internation_weather_app.git
+$ cd into iHewa
 ```
 
-Then, to run it, cd into `myTabs` and run:
+install the packages:
 
 ```bash
-$ ionic cordova platform add ios
+$ npm install
+$ ionic cordova run ios
+```
+
+to run the project:
+
+```bash
+$ ionic serve
+$ ionic cordova run ios
+```
+when you want to run in a simulator:
+
+```bash
 $ ionic cordova run ios
 ```
 
